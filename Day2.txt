@@ -1,0 +1,18 @@
+Java main() method -->
+What happens if the main() method is written without String args[]? - give error
+Execution Process --> static then main
+main() method should always be written as: --> public static void main(String args[]) 
+
+Function - scope
+Variable - local, static, insance
+DataTypes - revision -->
+        boolean data type
+        byte data type
+        char data type
+        short data type
+        int data type
+        long data type
+        float data type
+        double data type
+
+

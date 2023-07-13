@@ -1,0 +1,17 @@
+1.Decision Making statements
+    i.if statements - 
+                    a.Simple if statement
+                    b.if-else statement
+                    c.if-else-if ladder
+                    d.Nested if-statement
+    ii.switch statement
+2.Loop statements
+    do while loop
+    while loop
+    for loop
+    for-each loop
+3.Jump statements
+    break statement
+    continue statement
+
+With Flow Diagram --> 

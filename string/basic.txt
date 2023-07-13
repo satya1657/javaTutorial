@@ -1,0 +1,143 @@
+Sure, here are 20 very simple and basic String questions for beginners in Java:
+
+1. What is a string in Java?
+A string in Java is an object that represents a sequence of characters. It is a class in the Java standard library.
+
+2. How do you declare a string variable in Java?
+To declare a string variable in Java, you use the syntax:
+```
+String variableName = "string value";
+```
+
+3. How do you find the length of a string in Java?
+You can use the `length()` method of a string to find its length. For example:
+```
+String myString = "Hello, world!";
+int length = myString.length(); // length will be 13
+```
+
+4. How do you concatenate two strings together in Java?
+You can use the `+` operator to concatenate two strings together in Java. For example:
+```
+String firstName = "John";
+String lastName = "Doe";
+String fullName = firstName + " " + lastName; // fullName will be "John Doe"
+```
+
+5. How do you access a specific character in a string in Java?
+You can access a specific character in a string in Java by using its index. For example:
+```
+String myString = "Hello, world!";
+char firstChar = myString.charAt(0); // firstChar will be 'H'
+```
+
+6. How do you convert a string to uppercase or lowercase in Java?
+You can use the `toUpperCase()` or `toLowerCase()` methods to convert a string to uppercase or lowercase in Java, respectively. For example:
+```
+String myString = "Hello, world!";
+String upperCaseString = myString.toUpperCase(); // upperCaseString will be "HELLO, WORLD!"
+String lowerCaseString = myString.toLowerCase(); // lowerCaseString will be "hello, world!"
+```
+
+7. How do you check if a string contains a specific substring in Java?
+You can use the `contains()` method to check if a string contains a specific substring in Java. For example:
+```
+String myString = "Hello, world!";
+boolean containsHello = myString.contains("Hello"); // containsHello will be true
+boolean containsFoo = myString.contains("Foo"); // containsFoo will be false
+```
+
+8. How do you split a string into an array of substrings in Java?
+You can use the `split()` method to split a string into an array of substrings in Java. For example:
+```
+String myString = "John,Doe,25";
+String[] myStringArray = myString.split(","); // myStringArray will be {"John", "Doe", "25"}
+```
+
+9. How do you replace a substring in a string with another substring in Java?
+You can use the `replace()` method to replace a substring in a string with another substring in Java. For example:
+```
+String myString = "Hello, world!";
+String replacedString = myString.replace("world", "there"); // replacedString will be "Hello, there!"
+```
+
+10. How do you remove whitespace from the beginning and/or end of a string in Java?
+You can use the `trim()` method to remove whitespace from the beginning and/or end of a string in Java. For example:
+```
+String myString = "  Hello, world!  ";
+String trimmedString = myString.trim(); // trimmedString will be "Hello, world!"
+```
+
+11. How do you compare two strings for equality in Java?
+You can use the `equals()` method to compare two strings for equality in Java. For example:
+```
+String myString1 = "Hello";
+String myString2 = "Hello";
+boolean isEqual = myString1.equals(myString2); // isEqual will be true
+
+12. How do you compare two strings regardless of case sensitivity in Java?
+You can use the `equalsIgnoreCase()` method to compare two strings regardless of case sensitivity in Java. For example:
+```
+String myString1 = "Hello";
+String myString2 = "hello";
+boolean isEqual = myString1.equalsIgnoreCase(myString2); // isEqual will be true
+```
+
+13. How do you check if a string starts with a specific substring in Java?
+You can use the `startsWith()` method to check if a string starts with a specific substring in Java. For example:
+```
+String myString = "Hello, world!";
+boolean startsWithHello = myString.startsWith("Hello"); // startsWithHello will be true
+boolean startsWithFoo = myString.startsWith("Foo"); // startsWithFoo will be false
+```
+
+14. How do you check if a string ends with a specific substring in Java?
+You can use the `endsWith()` method to check if a string ends with a specific substring in Java. For example:
+```
+String myString = "Hello, world!";
+boolean endsWithWorld = myString.endsWith("world!"); // endsWithWorld will be true
+boolean endsWithFoo = myString.endsWith("Foo"); // endsWithFoo will be false
+```
+
+15. How do you convert a string to an integer in Java?
+You can use the `parseInt()` method to convert a string to an integer in Java. For example:
+```
+String myString = "42";
+int myInt = Integer.parseInt(myString); // myInt will be 42
+```
+
+16. How do you convert an integer to a string in Java?
+You can use the `toString()` method to convert an integer to a string in Java. For example:
+```
+int myInt = 42;
+String myString = Integer.toString(myInt); // myString will be "42"
+```
+
+17. How do you create a string from an array of characters in Java?
+You can use the `String(char[] value)` constructor to create a string from an array of characters in Java. For example:
+```
+char[] myCharArray = {'H', 'e', 'l', 'l', 'o'};
+String myString = new String(myCharArray); // myString will be "Hello"
+```
+
+18. How do you create a string from a substring of another string in Java?
+You can use the `substring()` method to create a string from a substring of another string in Java. For example:
+```
+String myString = "Hello, world!";
+String substring = myString.substring(0, 5); // substring will be "Hello"
+```
+
+19. How do you check if a string is empty in Java?
+You can use the `isEmpty()` method to check if a string is empty in Java. For example:
+```
+String myString = "";
+boolean isEmpty = myString.isEmpty(); // isEmpty will be true
+```
+
+20. How do you create a formatted string in Java?
+You can use the `String.format()` method to create a formatted string in Java. For example:
+```
+String name = "John";
+int age = 25;
+String formattedString = String.format("My name is %s and I am %d years old", name, age); // formattedString will be "My name is John and I am 25 years old"
+```
