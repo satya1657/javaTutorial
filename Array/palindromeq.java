@@ -13,6 +13,6 @@ public class palindromeq {
         }
 
         if(flag == 1) System.out.println("Not a palindrome");
-        else System.out.println("yes palindrome");
+        else System.out.println("Yes, It is Palindrome");
     }
 }
